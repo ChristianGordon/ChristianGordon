@@ -1,11 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 @import url("font-awesome.min.css");
 
-/*
-	Overflow by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1943,8 +1939,11 @@ input, select, textarea {
 				}
 
 		.box.style3 {
-			background: #fff;
+			/* background: #fff; */
 			padding: 3em;
+			color: #fcfcfc;
+			text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
 		}
 
 			.box.style3 header {
@@ -2077,7 +2076,7 @@ input, select, textarea {
 		text-align: center;
 		background: #35b88f url("images/banner.svg") bottom center no-repeat;
 		padding: 5em 0 5em 0;
-		margin: 100px;
+		margin: 200px;
 		background-size: 125% auto;
 	}
 
